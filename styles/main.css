@@ -1,0 +1,593 @@
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+body,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+q,
+ruby,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+
+menu,
+nav,
+section {
+    display: block
+}
+
+body {
+    line-height: 1
+}
+
+ol,
+ul {
+    list-style: none
+}
+
+blockquote,
+q {
+    quotes: none
+}
+
+blockquote:after,
+blockquote:before,
+q:after,
+q:before {
+    content: "";
+    content: none
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+html {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+*,
+:after,
+:before {
+    -moz-box-sizing: inherit;
+    box-sizing: inherit
+}
+
+a,
+h1,
+h2,
+h3 {
+    font-family: Montserrat, sans-serif;
+    font-weight: 400
+}
+
+p, li {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400
+}
+
+a,
+p {
+    font-size: 1rem;
+    /* line-height: 150% */
+}
+
+a {
+    text-decoration: none;
+    color: #222;
+}
+
+@media only screen and (min-width: 992px) {
+    a:hover {
+        color: #dadedf
+    }
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem
+}
+
+h2 {
+    font-size: 1.5rem
+}
+
+h3 {
+    font-size: 1.17rem
+}
+
+.tl,
+.tr {
+    text-align: left
+}
+
+@media px902 {
+    .tr {
+        text-align: right
+    }
+}
+
+.tc {
+    text-align: center
+}
+
+.slim {
+    font-weight: 200
+}
+
+a:hover {
+    text-decoration: none;
+    color: #f2f3f4
+}
+
+body {
+    text-align: center
+}
+
+@media only screen and (min-width: 768px) {
+    .vcenter {
+        display: -webkit-flex;
+        display: flex;
+        -webkit-align-items: center;
+        align-items: center
+    }
+}
+
+.top-menu {
+    background-color: rgba(19, 21, 22, .4);
+    width: 100%;
+    padding: 1rem .5rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    text-align: center
+}
+
+ul.menu li {
+    padding: 0;
+    padding-bottom: .2rem;
+    display: inline-block;
+    margin: 0 .2rem;
+    transition: all .5s ease;
+    border-bottom: 2px solid rgba(218, 222, 223, 0)
+}
+
+ul.menu li a {
+    color: #f2f3f4;
+    text-transform: uppercase;
+    font-size: .9rem;
+    padding: 0 .125rem
+}
+
+@media only screen and (min-width: 768px) {
+    ul.menu li:hover {
+        transition: all .25s ease;
+        /* border-bottom: 2px solid rgba(218, 222, 223, .5) */
+    }
+}
+
+ul.menu li.active {
+    transition: all .5s ease;
+    border-bottom: 2px solid #dadedf
+}
+
+.section {
+    padding: 5rem 1rem 3rem
+}
+
+.hello {
+    /* background-color: #1e77e2; */
+    color: #222222
+}
+
+.hello h1 {
+    font-size: 3rem;
+    margin-bottom: .5rem
+}
+
+.hello a,
+.hello h2 {
+    font-size: 1.3rem
+}
+
+.hello a {
+    line-height: 100%
+}
+
+.hello a:hover {
+    color: #131516;
+    /* border-bottom: 1px solid #131516 */
+}
+
+@media only screen and (min-width: 768px) {
+    .top-bot-space {
+        margin-top: 3rem;
+        margin-bottom: 3rem
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .top-bot-space {
+        margin-top: 5rem;
+        margin-bottom: 5rem
+    }
+}
+
+.welcome {
+    text-align: left
+}
+
+@media only screen and (min-width: 480px) {
+    .welcome {
+        margin: 0 .5rem
+    }
+}
+
+@media only screen and (min-width: 640px) {
+    .welcome {
+        margin: 0 1rem
+    }
+}
+
+.avatar {
+    max-width: 14rem;
+    width: 100%
+}
+
+@media only screen and (min-width: 768px) {
+    .avatar {
+        float: right
+    }
+}
+
+.works {
+    background-color: #3b3b3b;
+    color: #f2f3f4
+}
+
+.about {
+    background-color: #f5b327;
+    color: #131516
+}
+
+a.dotted {
+    border-bottom: 1px dotted #f2f3f4;
+    text-decoration: none
+}
+.about a.dotted {
+    color: #131516;
+    border-bottom: 1px dotted #131516;
+    text-decoration: none
+}
+
+
+.about a.dotted:hover {
+    color: #555F61;
+    /* border-bottom: 1px solid #555F61 */
+}
+
+.contact {
+    /* background-color: #3b3b3b; */
+    margin-top: 10px;
+    color: #222;
+}
+
+.project {
+    margin-top: 2rem;
+    margin-bottom: 3rem
+}
+
+.project img {
+    margin: 1rem auto
+}
+
+.project h3 {
+    transition: all .25s ease;
+    padding: 1.5rem 1rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    background-color: rgba(19, 21, 22, .3)
+}
+
+@media only screen and (min-width: 768px) {
+    .project h3:hover {
+        color: #f2f3f4;
+        transition: all .25s ease;
+        background-color: rgba(19, 21, 22, .6)
+    }
+}
+
+.project .project img:hover~h3 {
+    color: #f2f3f4;
+    transition: all .25s ease;
+    background-color: rgba(19, 21, 22, .6)
+}
+
+.project hr {
+    border-color: rgba(242, 243, 244, .2);
+    margin: .5rem 1rem
+}
+
+.project p {
+    text-size: 1.2rem;
+    padding: 0 1rem
+}
+
+.lewo p {
+    text-align: left
+}
+
+.lewo h3 {
+    text-align: center
+}
+
+.lewo img {
+    margin: 0 auto
+}
+
+@media only screen and (min-width: 768px) {
+    .lewo img {
+        float: left
+    }
+}
+
+.prawo p {
+    text-align: left
+}
+
+.prawo h3 {
+    text-align: center
+}
+
+.prawo img {
+    margin: 0 auto
+}
+
+@media only screen and (min-width: 768px) {
+    .prawo img {
+        float: right
+    }
+}
+
+.soon {
+    max-width: 33rem;
+    margin: 2rem auto;
+    color: #f2f3f4;
+    padding: .5rem;
+    text-align: center;
+    background-color: #1e77e2;
+    transition: all .25s ease
+}
+
+@media only screen and (min-width: 992px) {
+    .soon {
+        padding: 1rem;
+        max-width: 35rem
+    }
+    .soon:hover {
+        color: #dadedf;
+        transition: all .25s ease;
+        background-color: #175fb5
+    }
+}
+
+.about {
+    margin-bottom: 0;
+    padding-bottom: 0
+}
+
+.about p {
+    font-size: 1rem;
+    padding: .5rem
+}
+
+@media only screen and (min-width: 1200px) {
+    .about img {
+        float: right
+    }
+}
+
+.contact {
+    text-align: left
+}
+
+.contact .mob {
+    color: #1e77e2;
+    display: inline-block
+}
+
+@media only screen and (min-width: 768px) {
+    .contact .mob {
+        display: none
+    }
+}
+
+.contact img {
+    display: none;
+    width: 3.5rem;
+    height: 3.5rem
+}
+
+@media only screen and (min-width: 768px) {
+    .contact img {
+        display: inline-block
+    }
+}
+
+.contact h3 {
+    display: inline-block;
+    font-size: .9rem;
+    margin-top: 1rem
+}
+
+@media only screen and (min-width: 768px) {
+    .contact h3 {
+        margin-top: 0;
+        font-size: 1.5rem
+    }
+}
+
+.contact a {
+    transition: all .25s ease
+}
+
+.contact a:hover {
+    color: #1e77e2;
+    text-decoration: none;
+    transition: all .4s ease
+}
+
+
+
+.buttons {
+    /* margin: 2rem auto */
+}
+
+.buttons a {
+    /* margin-left: .25rem;
+    margin-right: .25rem */
+}
+
+a:active,
+a:focus,
+a:visited {
+    text-decoration: none!important
+}
+
+.now {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.now-content {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.now a {
+    color: inherit;
+}
+
+.now a.dotted {
+    border-bottom: 1px dotted #131516;
+    text-decoration: none
+}
+.now a.dotted:hover {
+    color: #000;
+    /* border-bottom: 1px solid #000; */
+}
+.now-wrap {
+    overflow:auto;
+    padding-bottom: 8rem;
+}
+.contact-slim {
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 8rem;
+
+    margin-bottom: 0rem;
+    padding: 1rem;
+    position: relative;
+    margin-top: -8rem; /* negative value of footer height */
+    clear:both;
+}
+
+.top-menu-now {
+    background-color: rgba(19, 21, 22, .8);
+}
+
+.now ul {
+    margin: 2rem
+}
+
+li {
+    list-style: circle;
+    padding: 0.8rem;
+}
